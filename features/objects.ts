@@ -13,3 +13,4 @@ const profile = {
 // const age = profile.age
 const {age}: {age: number} = profile
 const {coordinates: {lat, lng}}: {coordinates: {lat: number, lng: number}} = profile
+
